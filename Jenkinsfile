@@ -15,7 +15,7 @@ pipeline {
         echo '********* Build Stage Started **********'
         bat 'pip install -r requirements.txt'
         bat 'pyinstaller --onefile app.py'
-        echo '********* Build Stage is Finished **********'
+        echo '********* Build Stage  Finished **********'
         }
     }
     stage('Testing Stage') {
